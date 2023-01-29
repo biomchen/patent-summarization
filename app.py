@@ -19,7 +19,7 @@ def query(payload):
         return response.json()
 
 if __name__ == '__main__':
-    text =  input("Put the text here: ")
+    text =  input("Copy and paste the text here: ")
     results = query({
         "inputs" : text,
     })
